@@ -1,0 +1,143 @@
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+
+
+
+create table employee2 (
+	id INT,
+	name VARCHAR(50),
+	birthday DATE,
+	email VARCHAR(50)
+);
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+
+insert into employee2 (id, name, birthday, email) values (1, 'Evanne', '10/10/1950', 'eknibley0@nhs.uk');
+insert into employee2 (id, name, birthday, email) values (2, 'Jillie', '20/5/1952', 'jdriscoll1@over-blog.com');
+insert into employee2 (id, name, birthday, email) values (3, 'Hope', '16/5/1990', 'hhazeldine2@ucsd.edu');
+insert into employee2 (id, name, birthday, email) values (4, 'Sarene', '5/5/1982', 'smcellen3@nsw.gov.au');
+insert into employee2 (id, name, birthday, email) values (5, 'Madeleine', '27/4/1967', 'mjoncic4@nytimes.com');
+insert into employee2 (id, name, birthday, email) values (6, 'Chad', '16/10/1998', 'cakrigg5@usnews.com');
+insert into employee2 (id, name, birthday, email) values (7, 'Donnie', '4/10/1967', 'dbawdon6@buzzfeed.com');
+insert into employee2 (id, name, birthday, email) values (8, 'Tamar', '15/10/1972', 'tmclinden7@xinhuanet.com');
+insert into employee2 (id, name, birthday, email) values (9, 'Wilt', '9/9/1997', 'wdomico8@nature.com');
+insert into employee2 (id, name, birthday, email) values (10, 'Wake', '22/7/1997', 'wcoggill9@sun.com');
+insert into employee2 (id, name, birthday, email) values (11, 'Mortimer', '3/9/1950', 'mmcchesneya@state.gov');
+insert into employee2 (id, name, birthday, email) values (12, 'Benedicta', '1/9/1975', 'bgaynorb@wikia.com');
+insert into employee2 (id, name, birthday, email) values (13, 'Manda', '9/9/1972', 'mgreenstedc@si.edu');
+insert into employee2 (id, name, birthday, email) values (14, 'Klaus', '1/12/1970', 'kbushed@w3.org');
+insert into employee2 (id, name, birthday, email) values (15, 'Antonia', '12/6/1957', 'awoodalle@amazon.de');
+insert into employee2 (id, name, birthday, email) values (16, 'Tabbitha', '15/4/1975', 'tmontierf@yahoo.com');
+insert into employee2 (id, name, birthday, email) values (17, 'Romola', '15/10/1956', 'rcrelling@hp.com');
+insert into employee2 (id, name, birthday, email) values (18, 'Deidre', '21/8/2001', 'dhubeauxh@sina.com.cn');
+insert into employee2 (id, name, birthday, email) values (19, 'Heddi', '24/5/1996', 'htidmasi@desdev.cn');
+insert into employee2 (id, name, birthday, email) values (20, 'Boonie', '9/2/1950', 'bmuffinj@slideshare.net');
+insert into employee2 (id, name, birthday, email) values (21, 'Dinny', '23/10/1980', 'ddroghank@wikispaces.com');
+insert into employee2 (id, name, birthday, email) values (22, 'Dylan', '2/12/1985', 'dsweatmanl@symantec.com');
+insert into employee2 (id, name, birthday, email) values (23, 'Marline', '27/12/1979', 'mclealm@comcast.net');
+insert into employee2 (id, name, birthday, email) values (24, 'Sib', '24/3/1958', 'smcclarenn@stumbleupon.com');
+insert into employee2 (id, name, birthday, email) values (25, 'Mora', '16/10/1961', 'mcawsbyo@omniture.com');
+insert into employee2 (id, name, birthday, email) values (26, 'Spike', '21/9/1962', 'sleathlayp@yolasite.com');
+insert into employee2 (id, name, birthday, email) values (27, 'Denis', '13/11/2000', 'djotchamq@theglobeandmail.com');
+insert into employee2 (id, name, birthday, email) values (28, 'Washington', '26/1/1976', 'wfenelowr@smugmug.com');
+insert into employee2 (id, name, birthday, email) values (29, 'Ilsa', '23/3/1981', 'iberecloths@desdev.cn');
+insert into employee2 (id, name, birthday, email) values (30, 'Coleman', '7/4/1984', 'clindenboimt@devhub.com');
+insert into employee2 (id, name, birthday, email) values (31, 'Purcell', '17/12/1967', 'plindheu@usgs.gov');
+insert into employee2 (id, name, birthday, email) values (32, 'George', '23/7/1997', 'gtimnyv@comcast.net');
+insert into employee2 (id, name, birthday, email) values (33, 'Cly', '12/5/1987', 'creymersw@parallels.com');
+insert into employee2 (id, name, birthday, email) values (34, 'L;urette', '19/12/1976', 'lsimnelx@uiuc.edu');
+insert into employee2 (id, name, birthday, email) values (35, 'Sawyer', '30/10/1967', 'sgristhwaitey@tumblr.com');
+insert into employee2 (id, name, birthday, email) values (36, 'Kinnie', '7/3/1959', 'krigneyz@microsoft.com');
+insert into employee2 (id, name, birthday, email) values (37, 'Amy', '9/3/1995', 'amillan10@mail.ru');
+insert into employee2 (id, name, birthday, email) values (38, 'Humbert', '14/11/2000', 'hmeachan11@irs.gov');
+insert into employee2 (id, name, birthday, email) values (39, 'Walliw', '8/10/1985', 'wpynn12@over-blog.com');
+insert into employee2 (id, name, birthday, email) values (40, 'Nike', '12/8/1969', 'nplumtree13@cbc.ca');
+insert into employee2 (id, name, birthday, email) values (41, 'Peta', '22/11/1995', 'pscane14@nytimes.com');
+insert into employee2 (id, name, birthday, email) values (42, 'Heida', '15/12/1977', 'hauton15@printfriendly.com');
+insert into employee2 (id, name, birthday, email) values (43, 'Tracey', '6/11/1978', 'tgauvin16@adobe.com');
+insert into employee2 (id, name, birthday, email) values (44, 'Guy', '23/5/1994', 'gschirak17@msn.com');
+insert into employee2 (id, name, birthday, email) values (45, 'Laney', '14/9/1955', 'lfilan18@deviantart.com');
+insert into employee2 (id, name, birthday, email) values (46, 'Richard', '9/11/1991', 'rshipperbottom19@cbslocal.com');
+insert into employee2 (id, name, birthday, email) values (47, 'Hugh', '5/3/1960', 'hpopescu1a@gnu.org');
+insert into employee2 (id, name, birthday, email) values (48, 'Drona', '22/10/1982', 'dfant1b@aboutads.info');
+insert into employee2 (id, name, birthday, email) values (49, 'Rosina', '21/1/1999', 'rmarven1c@desdev.cn');
+insert into employee2 (id, name, birthday, email) values (50, 'Rubetta', '4/12/1960', 'rhanford1d@dion.ne.jp');
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+
+"""""""""""""""""""""""
+UPDATE employee2
+SET name = "UPDATED"
+WHERE name = 'A%';
+"""""""""""""""""""""""
+UPDATE employee2
+SET name = 'XXXXX'
+WHERE email LIKE '%.com';
+"""""""""""""""""""""""
+UPDATE employee2
+SET name = 'AAAA'
+WHERE id > 5;
+"""""""""""""""""""""""
+UPDATE employee2
+SET name = 'BBBB'
+WHERE id >15;
+"""""""""""""""""""""""
+UPDATE employee2
+SET name = 'CCCC'
+WHERE id >35;
+"""""""""""""""""""""""
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+"""""""""""""""""""""""
+DELETE FROM employee2
+WHERE email ILIKE 'a%'
+RETURNING *;
+"""""""""""""""""""""""
+DELETE FROM employee2
+WHERE email ILIKE '%.com'
+RETURNING *;
+"""""""""""""""""""""""
+DELETE FROM employee2
+WHERE email ILIKE '%ll%'
+RETURNING *;
+"""""""""""""""""""""""
+DELETE FROM employee2
+WHERE email ILIKE '%a%a'
+RETURNING *;
+
+"""""""""""""""""""""""
+DELETE FROM employee2
+WHERE email ILIKE '%e%a%'
+RETURNING *;
+"""""""""""""""""""""""
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+TABLONUN SON HALİ
+
+SELECT * FROM employee2
+ORDER BY id ASC ; 
+
+ id |  name  |  birthday  |         email
+----+--------+------------+-----------------------
+  1 | Evanne | 1950-10-10 | eknibley0@nhs.uk
+  3 | Hope   | 1990-05-16 | hhazeldine2@ucsd.edu
+ 13 | AAAA   | 1972-09-09 | mgreenstedc@si.edu
+ 14 | AAAA   | 1970-12-01 | kbushed@w3.org
+ 19 | BBBB   | 1996-05-24 | htidmasi@desdev.cn
+ 29 | BBBB   | 1981-03-23 | iberecloths@desdev.cn
+ 31 | BBBB   | 1967-12-17 | plindheu@usgs.gov
+ 32 | BBBB   | 1997-07-23 | gtimnyv@comcast.net
+ 34 | BBBB   | 1976-12-19 | lsimnelx@uiuc.edu
+ 48 | CCCC   | 1982-10-22 | dfant1b@aboutads.info
+ 49 | CCCC   | 1999-01-21 | rmarven1c@desdev.cn
+ 50 | CCCC   | 1960-12-04 | rhanford1d@dion.ne.jp
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
