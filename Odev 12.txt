@@ -56,7 +56,7 @@ JOIN payment ON payment.customer_id=customer.customer_id
 WHERE payment.amount = ANY
 (SELECT MAX(amount) FROM payment);
 
- customer_id | store_id | first_name | last_name |                email                 | address_id | activebool | create_date |       last_update       | active | amount -------------+----------+------------+-----------+--------------------------------------+------------+------------+-------------+-------------------------+--------+--------         362 |        1 | Nicholas   | Barfield  | nicholas.barfield@sakilacustomer.org |        367 | t          | 2006-02-14  | 2013-05-26 14:49:45.738 |      1 |  11.99
+ customer_id | store_id | first_name | last_name |                email                 | address_id | activebool | create_date |       last_update       | active | amount -------------+----------+------------+-----------+--------------------------------------+------------+------------+-------------+-------------------------+--------+--------                    362 |        1 | Nicholas   | Barfield  | nicholas.barfield@sakilacustomer.org |        367 | t          | 2006-02-14  | 2013-05-26 14:49:45.738 |      1 |  11.99
          204 |        1 | Rosemary   | Schmidt   | rosemary.schmidt@sakilacustomer.org  |        208 | t          | 2006-02-14  | 2013-05-26 14:49:45.738 |      1 |  11.99
          116 |        1 | Victoria   | Gibson    | victoria.gibson@sakilacustomer.org   |        120 | t          | 2006-02-14  | 2013-05-26 14:49:45.738 |      1 |  11.99
          195 |        1 | Vanessa    | Sims      | vanessa.sims@sakilacustomer.org      |        199 | t          | 2006-02-14  | 2013-05-26 14:49:45.738 |      1 |  11.99
